@@ -21,7 +21,7 @@ cd ..
 . build/envsetup.sh
 lunch 9
 echo ""
-echo "Building Hammerhead Odex"
+echo "Building Hammerhead Deodex"
 echo ""
 time make otapackage -j4 2>&1 | tee build.log
 
