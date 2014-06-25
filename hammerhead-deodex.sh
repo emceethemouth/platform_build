@@ -7,17 +7,17 @@
 # Copyright 2014
 #
 
+echo ""
+echo ""
 echo "Start Compilation for Hammerhead"
 echo ""
 echo ""
 
-
+cd ..
 echo "cleaning directories..."
 make clean
-clear
-
+echo ""
 echo "start"
-cd ..
 . build/envsetup.sh
 lunch 9
 echo ""
