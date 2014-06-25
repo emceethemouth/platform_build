@@ -23,7 +23,7 @@ lunch 9
 echo ""
 echo "Building Hammerhead Odex"
 echo ""
-time make otapackage -j4 WITH_DEXPREOPT=true 2>&1 | tee build.log
+time make otapackage -j4 2>&1 | tee build.log
 
 echo "build done"
 echo ""
